@@ -16,11 +16,11 @@ sudo apt-get install libraspberrypi-dev
 ```  
 After installing dependencies clone this repository and use `make` command in order to build executable:
 ```
-git clone https://github.com/markondej/fm_transmitter
-cd fm_transmitter
+git clone https://github.com/lokitot/radiofm
+cd radiofm
 make
 ```
-After a successful build you can start transmitting by executing the "fm_transmitter" program:
+After a successful build you can start transmitting by executing the "radiofm" program:
 ```
 sudo ./fm_transmitter -f 100.6 acoustic_guitar_duet.wav
 ```
